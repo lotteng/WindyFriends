@@ -2,7 +2,8 @@
 
 Make edutainment App
 
-Adroid Studio 3.0.1
+▶Adroid Studio 3.0.1◀
+https://developer.android.com/studio/install.html
 
 ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 
