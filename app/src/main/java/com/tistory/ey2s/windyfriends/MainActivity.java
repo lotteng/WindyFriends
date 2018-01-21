@@ -2,6 +2,7 @@ package com.tistory.ey2s.windyfriends;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.makeBT).setOnClickListener((View.OnClickListener) this);
         findViewById(R.id.optionBT).setOnClickListener((View.OnClickListener) this);
+
     }
 
     public void onClick(View v){

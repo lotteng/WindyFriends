@@ -69,8 +69,8 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/share"
                 android:layout_toRightOf="@+id/share"
-                android:background="@drawable/make"
-                app:srcCompat="@drawable/bt_make" />
+                android:background="@drawable/make_click"
+                app:srcCompat="@drawable/make_bt" />
 
             <ImageButton
                 android:id="@+id/help"
@@ -86,11 +86,11 @@
                 android:id="@+id/optionBT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
                 android:layout_toEndOf="@+id/help"
                 android:layout_toRightOf="@+id/help"
-                android:background="@drawable/option"
-                app:srcCompat="@drawable/option" />
+                android:background="@drawable/option_click"
+                app:srcCompat="@drawable/option_bt" />
         </RelativeLayout>
     </RelativeLayout>
 

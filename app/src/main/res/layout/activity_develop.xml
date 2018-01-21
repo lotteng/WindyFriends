@@ -25,54 +25,44 @@
                 style="@android:style/Widget.Material.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/developBT"
-                android:layout_alignBottom="@+id/developBT"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginEnd="54dp"
-                android:layout_marginRight="54dp"
-                android:text="EXIT" />
-
-            <Button
-                android:id="@+id/developBT"
-                style="@android:style/Widget.Material.Button.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="11dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginRight="12dp"
-                android:layout_toLeftOf="@+id/exitBT"
-                android:layout_toStartOf="@+id/exitBT"
-                android:text="develop" />
+                android:layout_centerHorizontal="true"
+                android:text="EXIT" />
 
             <TextView
                 android:id="@+id/developtext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
+                android:layout_below="@+id/datetext"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="31dp"
-                android:text="option"
+                android:text="-- Develop --"
                 android:textSize="36sp" />
 
-            <SeekBar
-                android:id="@+id/volumbar"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/developtext"
-                android:layout_alignStart="@+id/developtext"
-                android:layout_below="@+id/developtext"
-                android:layout_marginTop="21dp" />
-
             <TextView
-                android:id="@+id/volumetext"
+                android:id="@+id/datetext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/volumbar"
-                android:layout_toLeftOf="@+id/volumbar"
-                android:layout_toStartOf="@+id/volumbar"
-                android:text="Volume " />
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="2018.01.02~" />
+
+            <TextView
+                android:id="@+id/emailtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="lotteng_@naver.com" />
+
+            <TextView
+                android:id="@+id/githubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailtext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:text="https://github.com/lotteng/WindyFriends" />
 
         </RelativeLayout>
     </RelativeLayout>
