@@ -17,6 +17,8 @@ public class ImageAdapter extends BaseAdapter{
 
     private Integer[] mThumbIds = {
             R.drawable.red, R.drawable.yellow
+            , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow
+            , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow
     };
 
 
@@ -44,9 +46,9 @@ public class ImageAdapter extends BaseAdapter{
         ImageView imageView;
         if(convertView == null){
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(85,85));
+            imageView.setLayoutParams(new GridView.LayoutParams(250,300));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(8, 8, 8, 8);
+            imageView.setPadding(5, 5, 5, 5);
         }else{
             imageView = (ImageView)convertView;
         }
