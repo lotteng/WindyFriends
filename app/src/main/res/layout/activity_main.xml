@@ -5,84 +5,93 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.tistory.ey2s.windyfriends.MainActivity"><![CDATA[
-
-    /*android:text="메인 페이지입니다."
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
-
-
-
-    ]]>
+    tools:context="com.tistory.ey2s.windyfriends.MainActivity">
 
     <RelativeLayout
-        android:id="@+id/menu"
-        android:layout_width="365dp"
-        android:layout_height="66dp"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="551dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="499dp">
+        tools:layout_editor_absoluteY="8dp">
 
-        <ImageButton
-            android:id="@+id/camera"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/camera"
-            app:srcCompat="@drawable/camera" />
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="483dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
 
-        <ImageButton
-            android:id="@+id/share"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toEndOf="@+id/camera"
-            android:layout_toRightOf="@+id/camera"
-            android:background="@drawable/share"
-            app:srcCompat="@drawable/share" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/camera_sample" />
 
-        <ImageButton
-            android:id="@+id/make"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toEndOf="@+id/share"
-            android:layout_toRightOf="@+id/share"
-            android:background="@drawable/make"
-            app:srcCompat="@drawable/bt_make" />
+        </RelativeLayout>
 
-        <ImageButton
-            android:id="@+id/help"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/option"
-            android:layout_toEndOf="@+id/make"
-            android:layout_toRightOf="@+id/make"
-            android:background="@drawable/help"
-            app:srcCompat="@drawable/help" />
+        <RelativeLayout
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="499dp">
 
-        <ImageButton
-            android:id="@+id/option"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toEndOf="@+id/help"
-            android:layout_toRightOf="@+id/help"
-            android:background="@drawable/option"
-            app:srcCompat="@drawable/option" />
+            <ImageButton
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/camera"
+                app:srcCompat="@drawable/camera" />
+
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/camera"
+                android:layout_toRightOf="@+id/camera"
+                android:background="@drawable/share"
+                app:srcCompat="@drawable/share" />
+
+            <ImageButton
+                android:id="@+id/makeBT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/share"
+                android:layout_toRightOf="@+id/share"
+                android:background="@drawable/make"
+                app:srcCompat="@drawable/bt_make" />
+
+            <ImageButton
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/optionBT"
+                android:layout_toEndOf="@+id/makeBT"
+                android:layout_toRightOf="@+id/makeBT"
+                android:background="@drawable/help"
+                app:srcCompat="@drawable/help" />
+
+            <ImageButton
+                android:id="@+id/optionBT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/help"
+                android:layout_toRightOf="@+id/help"
+                android:background="@drawable/option"
+                app:srcCompat="@drawable/option" />
+        </RelativeLayout>
     </RelativeLayout>
-
-    <FrameLayout
-        android:layout_width="368dp"
-        android:layout_height="492dp"
-        android:background="@drawable/camera_sample"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="4dp">
-
-    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

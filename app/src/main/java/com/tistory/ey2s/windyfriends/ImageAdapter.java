@@ -16,9 +16,10 @@ public class ImageAdapter extends BaseAdapter{
     private Context mContext;
 
     private Integer[] mThumbIds = {
-            R.drawable.red, R.drawable.yellow
-            , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow
-            , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow , R.drawable.red, R.drawable.yellow
+            R.drawable.red, R.drawable.yellow,
+            R.drawable.char1 , R.drawable.char2, R.drawable.char3, R.drawable.char4, R.drawable.char5, R.drawable.char6, R.drawable.char7, R.drawable.char8, R.drawable.char9,
+            R.drawable.red, R.drawable.yellow,
+            R.drawable.char1 , R.drawable.char2, R.drawable.char3, R.drawable.char4, R.drawable.char5, R.drawable.char6, R.drawable.char7, R.drawable.char8, R.drawable.char9
     };
 
 

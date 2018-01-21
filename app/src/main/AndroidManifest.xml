@@ -31,6 +31,10 @@
 
         </activity>
 
+        <activity android:name=".OptionActivity">
+
+        </activity>
+
     </application>
 
 </manifest>
